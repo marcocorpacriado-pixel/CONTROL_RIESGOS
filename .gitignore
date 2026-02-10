@@ -1,0 +1,31 @@
+# Python / venv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (recomendado: no versionar)
+data/raw/
+data/external/
+data/interim/
+data/processed/
+
+# Outputs
+reports/figures/
+reports/executive_summary/*.pdf
+
+# Logs
+*.log
+
+.env
